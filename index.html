@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--<meta http-equiv="refresh" content="1">-->
+        <link rel="stylesheet" href="./style.css">
+        <title> NOTES APP </title>
+    </head>
+    <body >
+        <!-- <a href="https://www.w3schools.com">This is a link</a> -->
+        <!-- <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> -->
+
+        <h1 id="main_heading" > NOTES APP </h1> 
+        <button id="notes_add" > ADD A NOTE </button>
+        <br><br>
+        <input id="filter_input_box" placeholder="Filter by" > 
+        <select id="notes_filter_options" >
+            <option value="all" >All</option>
+            <option value="title" >Title</option>
+            <option value="text" >Text</option>
+            <option value="tag" >Tags</option>
+        </select>
+        <br><br>
+
+        <div id="notes_container" >
+        </div>
+        <hr class="thickhr">
+
+        <div id="temp_note_add" >
+            <!--<h4 class="display_options_label" > NEW NOTE HERE </h4>-->
+            <form id="new_note_form" >
+                <input placeholder="TITLE" id="new_note_title" size="30">
+                <input placeholder="TAGS comma separated" id="new_note_tag" size="20" >
+                <!--<input placeholder="TEXT" id="new_note_text" >-->
+                <br>
+                <textarea id="new_note_text" placeholder="TEXT" rows="5" cols="40" wrap="hard" ></textarea>
+                <br>
+                <button id="new_note_submit" >DONE</button>
+            </form>
+        </div>
+
+
+        <hr>
+        <div id="display-options" >
+            <h4 class="display_options_label" > DISPLAY OPTIONS </h4>
+            <label class="display_options_label" ><input id="hide_tags_checkbox" type="checkbox"> Hide Tags</label > <br>
+            <label class="display_options_label" ><input id="hide_text_checkbox" type="checkbox"> Hide Note Text</label > <br>
+            <label class="display_options_label" ><input id="dark_mode" type="checkbox"> Dark Mode </label > <br>
+        </div>
+
+
+
+        <script src = "script.js"></script>
+    </body>
+</html>

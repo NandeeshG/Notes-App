@@ -1,0 +1,66 @@
+#main_heading {
+    color: #CEF0D4; 
+    font-family: 'Rouge Script', cursive;
+    font-size: 80px; 
+    font-weight: normal; 
+    line-height: 45px; 
+    margin: 50px 0 50px; 
+    text-align: center; 
+    text-shadow: 1px 1px 2px #082b34; 
+}
+
+#filter_input_box,#notes_filter_options {
+    position : relative;
+    left : 35%;
+}
+#notes_add,#notes_filter {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+    position : relative;
+    left : 40%;
+}
+#notes_add:hover,#notes_filter:hover {background-color: #3e8e41}
+#notes_add:active,#notes_filter:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+.note_edit,.note_delete {
+    display: inline-block;
+    padding: 5px 7px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color : black;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px #999;
+}
+.note_edit:hover,.note_delete:hover {background-color: #ffff00}
+.note_edit:active,.note_delete:active {
+    background-color: #ffff00;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.thickhr{
+    height: 5px;
+    background: black;
+}
+.inline{
+    display:inline;
+}
