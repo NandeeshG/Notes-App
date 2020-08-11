@@ -1,7 +1,6 @@
 /* eslint-disable no-debugger, no-console, no-unused-vars */
 
 //TODO : Make stuff unselectable
-//TODO : Make paragraph for input text
 //TODO : edit button function
 //TODO : local storage
 
