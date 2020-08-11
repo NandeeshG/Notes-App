@@ -2,21 +2,15 @@
 
 //TODO : Make stuff unselectable
 //TODO : Make paragraph for input text
+//TODO : edit button function
+//TODO : local storage
 
-let all_tags = ['IMP', 'TODAY', 'CLG', 'HOME', 'CP', 'DEV'];
+let all_tags = ['EG_TAG'];
 
 let all_notes = [
-    {title:'JS BOOTCAMP SUMMARY',
-     tags:[1,5],
-     text:'I have already made the todo app, now making notes app.',
-    },
-    {title:'CF Virtual Plan',
-     tags:[0,4],
-     text:'I need to give a virtual everyday at 8pm, and upsolve before the next virtual on next day. Also make a robust time table',
-    },
-    {title:'Training report index',
-     tags:[0,2],
-     text:'Make the full training report in 2hours max today itself depending on how many students have sent it. Maybe ask before making',
+    {title:'EXAMPLE',
+     tags:[0],
+     text:'This is just an example. Delete this and make your own notes.',
     },
 ];
 
