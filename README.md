@@ -3,11 +3,13 @@
 ### https://nandeeshg.github.io/notes-app/
 
 
-TODOS -
+
+
+Future Additions/Ideas -
 * Add Local Storage
 * Make Edit button functional
 * Prettify everything
 * Make Headings and Add Button centered.
-
-FUTURE -
+* Add folder functionality.
 * Add reminding function with Google calendar linking
+* Change glow animation for new note to something prettier.
